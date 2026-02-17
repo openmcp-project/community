@@ -1,14 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/openmcp-project/community)](https://api.reuse.software/info/github.com/openmcp-project/community)
 
-# community
+# openMCP Community
 
-## About this project
+Welcome to the openMCP community!
 
-openMCP community content
-
-## Requirements and Setup
-
-*Insert a short description what is required to get your project running...*
+This repository is the home of all community content related to the openMCP project. It serves as a central hub for documentation, resources, and contributions for the community.
 
 ## Support, Feedback, Contributing
 
