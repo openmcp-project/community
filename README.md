@@ -4,7 +4,7 @@
 
 Welcome to the openMCP community!
 
-This repository is the home of all community content related to the openMCP project. It serves as a central hub for documentation, resources, and contributions for the community.
+This repository is the home of all community content related to the openMCP project. It serves as a central hub for documentation, resources and contributions for the community.
 
 ## Support, Feedback, Contributing
 
