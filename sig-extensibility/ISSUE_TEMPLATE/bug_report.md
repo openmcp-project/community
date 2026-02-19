@@ -7,7 +7,7 @@ labels: bug, sig/extensibility
 Thank you for helping to improve Open Managed Control Plane!
 
 Please be sure to search for open issues before raising a new one. We use issues
-for bug reports and feature requests. Please find us at https://slack.Open Managed Control Plane.io
+for bug reports and feature requests. Please find us at https://linuxfoundation.zulipchat.com/#narrow/channel/532964-neonephos-openmcp-discussion
 for questions, support, and discussion.
 -->
 
