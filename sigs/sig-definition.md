@@ -30,7 +30,7 @@ A new SIG may be proposed when:
 5. Initial leadership team appointment
 
 ### SIG Dissolution
-A SIG may be dissolved when its scope is no longer relevant, it has been inactive for X months, or its responsibilities are merged into another SIG. The dissolution process will be defined as the project evolves.
+A SIG may be dissolved when its scope is no longer relevant, it has been inactive for 12 months, or its responsibilities are merged into another SIG. The dissolution process will be defined as the project evolves.
 
 ## SIG Charter Requirements
 
