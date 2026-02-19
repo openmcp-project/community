@@ -1,40 +1,13 @@
 ---
 name: Bug Report
-about: Help us diagnose and fix bugs in Open Managed Control Plane
-labels: bug, sig/extensibility
+about: Report a bug
+labels: kind/bug, sig/extensibility
 ---
-<!--
-Thank you for helping to improve Open Managed Control Plane!
-
-Please be sure to search for open issues before raising a new one. We use issues
-for bug reports and feature requests. Please find us at https://linuxfoundation.zulipchat.com/#narrow/channel/532964-neonephos-openmcp-discussion
-for questions, support, and discussion.
--->
 
 ### What happened?
-<!--
-Please let us know what behaviour you expected and how Open Managed Control Plane diverged from
-that behaviour.
--->
 
+### What you expected to happen?
 
-### How can we reproduce it?
-<!--
-Help us to reproduce your bug as succinctly and precisely as possible. Artifacts
-such as example manifests or a script that triggers the issue are highly
-appreciated!
--->
+### How to reproduce it (as minimally and precisely as possible)?
 
-### What environment did it happen in?
-Open Managed Control Plane version:
-
-<!--
-Include at least the version or commit of Open Managed Control Plane you were running. Consider
-also including your:
-
-* Cloud provider or hardware configuration
-* Kubernetes version (use `kubectl version`)
-* Kubernetes distribution (e.g. Tectonic, GKE, OpenShift)
-* OS (e.g. from /etc/os-release)
-* Kernel (e.g. `uname -a`)
--->
+### Anything else we need to know?
