@@ -63,7 +63,7 @@ SIGs **MUST** have a charter defining their scope, responsibilities, decision-ma
 
 #### Roles and Responsibilities
 
-SIGs operate with a **trhee-tier role structure**:
+SIGs operate with a **three-tier role structure**:
 
 ### SIG Owner (Organizer/Facilitator)
 - **Minimum required:** At least 1 per SIG
