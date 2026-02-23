@@ -1,7 +1,5 @@
 # SIG Extensibility Charter
 
-! DRAFT !
-
 ## Scope
 
  SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of [Cloud Orchestrator](https://github.com/openmcp-project).
@@ -47,41 +45,32 @@ Topics like provider design, discovery and access management are cross-cutting w
 | [service-provider-template](https://github.com/openmcp-project/service-provider-template) | Christopher Junk | Template for building openMCP service providers |
 | [openmcp-testing](https://github.com/openmcp-project/openmcp-testing) | Christopher Junk | Helps to set up e2e test suites for openMCP components |
 
+## Communication
+
+- **Community Call:** Bi-weekly on Wednesday at 3PM CET
+- **Mailing List:** [openMCP-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/openMCP-extensibility), sign up for updates and receive your invitation to our community call.
+- **Documentation:** [openMCP-project docs](https://openmcp-project.github.io/docs/)
+
+## Decision-Making
+
+### Decision Process
+
+Decisions are made through consensus among approvers. If consensus cannot be reached, the SIG Owner makes the final decision with documented rationale.
+
+### Escalation
+
+Conflicts are first discussed within the SIG. If unresolved after 2 weeks, they are escalated to TSC.
+
 ## Roadmap
 
-SIG Extensibility distinguishes between short-term and long-term activities.
+SIG Extensibility distinguishes between short-term and long-term activities. The [roadmap](https://github.com/orgs/openmcp-project/projects/15/views/5) provides a three-month outlook on planned work.
 
-Short-term activities have a commitment to be actively worked on within the next three months and are tracked as GitHub issues (see [SIG Extensibility Board](https://github.com/orgs/openmcp-project/projects/15/views/5)).
+Short-term activities have a commitment to be actively worked on within the next three months and are put in the backlog and tracked in the [backlog view](https://github.com/orgs/openmcp-project/projects/15/views/3).
 
-Long-term activities are captured as PRs in a request for comments format (see [RFC Overview]()). RFCs serve as the primary mechanism for discussing and refining future work. An RFC results in GitHub issues once the PR has been merged and the commitment to implement an RFC has been made.
+Long-term activities are captured in the [feature requests view](https://github.com/orgs/openmcp-project/projects/15/views/15). Feature requests serve as the primary mechanism for discussing and refining future work. If a feature requires additional documentation, create a PR in the community repo with a ADR, RFC or enhancement proposal markdown file under [sig-extensibility](/) to discuss the request. Issues related to a feature request are put into the [SIG Extensibility backlog](https://github.com/orgs/openmcp-project/projects/15/views/3) once a feature has been refined and the commitment to implement the feature has been made.
 
-```mermaid
----
-title: Simple sample
----
-stateDiagram-v2
-    state commitment <<choice>>
-    [*] --> Activity
-    Activity --> commitment
-    commitment --> RFC: long-term/no immediate work commitment
-    state RFC {
-        Open: RFC open
-        Progress: RFC in progress
-        Closed: RFC closed
-        [*] --> Open: Issue created and put into project RFC bucket
-        Open --> Progress: PR created and discussed
-        Progress --> Closed: PR merged
-    }
-    commitment --> Roadmap: active work commitment
+## Charter Review
 
-    RFC --> Roadmap: active work commitment
-
-    Roadmap: 3 Month Roadmap
-    Roadmap --> [*]
-    state Roadmap{
-        [*] --> Backlog: Issue created
-        Backlog --> InProgress
-        InProgress --> Review
-        Review --> Done
-    }
-```
+- **Last Updated:** 2026-02-23
+- **Next Review:** tbd
+- **Review Frequency:** tbd
