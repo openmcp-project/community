@@ -31,7 +31,7 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ### SIG Contributors
 
-- **Active Contributors:** [List of contributors]
+- **Active Contributors:** tbd
 - **How to join:** Demonstrate consistent contributions to the SIG's areas
 
 ## Subprojects
