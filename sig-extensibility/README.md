@@ -67,7 +67,7 @@ SIG Extensibility distinguishes between short-term and long-term activities. The
 
 Short-term activities have a commitment to be actively worked on within the next three months and are put in the backlog and tracked in the [backlog view](https://github.com/orgs/openmcp-project/projects/15/views/3).
 
-Long-term activities are captured in the [feature requests view](https://github.com/orgs/openmcp-project/projects/15/views/15). Feature requests serve as the primary mechanism for discussing and refining future work. If a feature requires additional documentation, create a PR in the community repo with a ADR, RFC or enhancement proposal markdown file under [sig-extensibility](/) to discuss the request. Issues related to a feature request are put into the [SIG Extensibility backlog](https://github.com/orgs/openmcp-project/projects/15/views/3) once a feature has been refined and the commitment to implement the feature has been made.
+Long-term activities are captured in the [feature requests view](https://github.com/orgs/openmcp-project/projects/15/views/15). Feature requests serve as the primary mechanism for discussing and refining future work. If a feature requires additional documentation, create a PR in the community repo with a ADR, RFC or enhancement proposal markdown file under [sig-extensibility](../sig-extensibility/) to discuss the request. Issues related to a feature request are put into the [SIG Extensibility backlog](https://github.com/orgs/openmcp-project/projects/15/views/3) once a feature has been refined and the commitment to implement the feature has been made.
 
 ## Charter Review
 
