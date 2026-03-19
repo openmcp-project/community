@@ -43,6 +43,7 @@ Topics like provider design, discovery and access management are cross-cutting w
 | [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener) | Johannes Aubart | Use [Gardener](https://gardener.cloud/) to provision clusters in openMCP |
 | [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind) | Maximilian Techritz | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in openMCP |
 | [service-provider-template](https://github.com/openmcp-project/service-provider-template) | Christopher Junk | Template for building openMCP service providers |
+| [service-provider-velero](https://github.com/openmcp-project/service-provider-velero) | Christopher Junk | Manages the lifecycle of Velero instances as-a-Service |
 | [openmcp-testing](https://github.com/openmcp-project/openmcp-testing) | Christopher Junk | Helps to set up e2e test suites for openMCP components |
 
 ## Communication
