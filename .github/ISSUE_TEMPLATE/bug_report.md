@@ -1,7 +1,6 @@
 ---
 name: Bug Report
 about: Report a bug
-labels: kind/bug, sig/extensibility
 ---
 
 ### What happened?

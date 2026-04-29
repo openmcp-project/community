@@ -1,22 +1,40 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/openmcp-project/community)](https://api.reuse.software/info/github.com/openmcp-project/community)
 
-# openMCP Community
+# OpenControlPlane Community
 
-Welcome to the openMCP community!
+Welcome to the OpenControlPlane community!
 
-This repository is the home of all community content related to the openMCP project. It serves as a central hub for documentation, resources and contributions for the community.
+This repository is the governance hub for the OpenControlPlane project. It contains steering committee documentation, SIG definitions, and community processes.
 
-## Support, Feedback, Contributing
+OpenControlPlane is a project of the [NeoNephos Foundation](https://neonephos.org/), a subfoundation of the [Linux Foundation Europe](https://linuxfoundation.eu).
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/openmcp-project/community/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+## Governance
 
-## Security / Disclosure
-If you find any bug that may be a security problem, please follow our instructions at [in our security policy](https://github.com/openmcp-project/community/security/policy) on how to report it. Please do not create GitHub issues for security-related doubts or problems.
+- [Technical Charter](steering/CHARTER.md)
+- [Governance Model](steering/GOVERNANCE.md)
+- [TSC Members & Security Officer](steering/OWNERS.md)
+- [Meeting Notes](steering/meetings/)
+
+## Special Interest Groups (SIGs)
+
+- [SIG Definition & Lifecycle](sigs/sig-definition.md)
+- [SIG Template](sigs/sig-template.md)
+- [SIG Extensibility](sig-extensibility/)
+
+## Contributing
+
+For general contribution guidelines, see the [organization-wide CONTRIBUTING.md](https://github.com/openmcp-project/.github/blob/main/CONTRIBUTING.md).
+
+For contributions to governance processes or this repository specifically, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Security
+
+If you find a security vulnerability, please follow our [security policy](https://github.com/openmcp-project/.github/blob/main/SECURITY.md). Do not create public GitHub issues for security concerns.
 
 ## Code of Conduct
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone. By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/SAP/.github/blob/main/CODE_OF_CONDUCT.md) at all times.
+All community members must abide by our [Code of Conduct](https://github.com/openmcp-project/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Licensing
 
-Copyright 2026 SAP SE or an SAP affiliate company and community contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/openmcp-project/community).
+Copyright OpenControlPlane contributors. See [LICENSE](LICENSE) for details. Licensing information is available [via the REUSE tool](https://api.reuse.software/info/github.com/openmcp-project/community).

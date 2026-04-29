@@ -1,20 +1,7 @@
-**What this PR does / why we need it**:
+## What
 
-**Which issue(s) this PR fixes**:
-Fixes #
+<!-- What does this PR do? -->
 
-**Special notes for your reviewer**:
+## Why
 
-**Release note**:
-<!--  Write your release note:
-1. Enter your release note in the below block.
-2. If no release note is required, just write "NONE" within the block.
-
-Format of block header: <category> <target_group>
-Possible values:
-- category:       breaking|feature|bugfix|doc|other
-- target_group:   user|operator|developer|dependency
--->
-```feature user
-
-```
+<!-- Why is this change needed? Link to issue if applicable. -->

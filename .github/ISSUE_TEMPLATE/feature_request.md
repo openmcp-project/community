@@ -1,7 +1,6 @@
 ---
 name: Feature Request
-about: Suggest a feature in the Open Managed Control Plane ecosystem
-labels: kind/feature, sig/extensibility
+about: Suggest a new feature or enhancement
 ---
 
 ### What would you like to be added?
