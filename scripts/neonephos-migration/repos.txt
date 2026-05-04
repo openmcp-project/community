@@ -1,0 +1,48 @@
+## Tier 1 — Pilot (small repos, low risk)
+openmcp
+openmcp-operator
+bootstrapper
+
+## Tier 2 — Core (high-traffic, careful review)
+mcp-operator
+control-plane-operator
+landscaper
+landscaper-service
+landscapercli
+
+## Tier 3 — Service Providers (identical structure)
+service-provider-crossplane
+service-provider-external-secrets
+service-provider-flux
+service-provider-kro
+service-provider-landscaper
+service-provider-template
+service-provider-velero
+
+## Tier 4 — Platform Services (identical structure)
+platform-service-dns
+platform-service-gardener-ipam
+platform-service-gateway
+platform-service-project-workspace
+platform-service-quota
+platform-service-test-runner
+
+## Tier 5 — Remaining
+blueprint-building-blocks
+blueprint-workflows
+blueprints
+build
+cluster-provider-gardener
+cluster-provider-kind
+controller-utils
+docs
+gitops-templates
+local-event-showcase
+metrics-operator
+observability-stack
+ocpctl
+openmcp-testing
+provider-upgrade-test
+ui-backend
+ui-frontend
+usage-operator
