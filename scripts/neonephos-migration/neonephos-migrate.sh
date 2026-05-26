@@ -200,6 +200,7 @@ remove_inherited_files() {
     local inherited_files=(
         "CODE_OF_CONDUCT.md"
         "SECURITY.md"
+        "CONTRIBUTING.md"
         "CONTRIBUTING_USING_GENAI.md"
     )
 
