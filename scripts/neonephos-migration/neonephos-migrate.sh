@@ -225,11 +225,29 @@ ensure_readme_footer() {
         return
     fi
 
-    # Skip if footer already present
-    if grep -q "Linux Foundation Europe" "$readme" 2>/dev/null; then
-        report "  [SKIP] README.md already has LFE footer"
+    local required_footer='Copyright Linux Foundation Europe. For web site terms of use, trademark policy and other project policies please see <a href="https://linuxfoundation.eu/en/policies">https://linuxfoundation.eu/en/policies</a>.'
+
+    # Skip only if the exact required footer line is already present
+    if grep -qF "$required_footer" "$readme" 2>/dev/null; then
+        report "  [SKIP] README.md already has correct LFE footer"
         return
     fi
+
+    # Strip any existing apeirora/LFE footer block before appending the correct one
+    python3 -c "
+content = open('$readme').read()
+marker = '\n---\n\n<p align=\"center\">\n  <a href=\"https://apeirora.eu'
+idx = content.rfind(marker)
+if idx != -1:
+    open('$readme', 'w').write(content[:idx])
+" 2>/dev/null
+
+    if grep -q "apeirora\.eu\|linuxfoundation\.eu\|Linux Foundation Europe" "$readme" 2>/dev/null; then
+        report "  [WARN] Could not strip existing footer — manual check required"
+        return
+    fi
+
+    report "  [UPDATE] Adding correct LFE footer to README.md"
 
     cat >> "$readme" <<'FOOTER'
 
@@ -246,7 +264,7 @@ ensure_readme_footer() {
 </p>
 
 <p align="center">
-  Copyright &copy; Linux Foundation Europe. OpenControlPlane is a project of <a href="https://neonephos.org/">NeoNephos Foundation</a>. For applicable policies including privacy policy, terms of use and trademark usage guidelines, please see <a href="https://linuxfoundation.eu">linuxfoundation.eu</a>. Linux is a registered trademark of Linus Torvalds.
+  Copyright Linux Foundation Europe. For web site terms of use, trademark policy and other project policies please see <a href="https://linuxfoundation.eu/en/policies">https://linuxfoundation.eu/en/policies</a>.
 </p>
 FOOTER
 
