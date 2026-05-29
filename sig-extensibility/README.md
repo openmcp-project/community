@@ -36,18 +36,20 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ## Subprojects
 
-| Subproject | Owner | Description |
-|---|---|---|
-| [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener) | [@Diaphteiros](https://github.com/Diaphteiros) | Use [Gardener](https://gardener.cloud/) to provision clusters in openMCP |
-| [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind) | [@maximiliantech](https://github.com/maximiliantech) | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in openMCP |
-| [openmcp-testing](https://github.com/openmcp-project/openmcp-testing) | [@christophrj](https://github.com/christophrj) | Set up e2e test suites for Open Control Plane components |
-| [service-provider-crossplane](https://github.com/openmcp-project/service-provider-crossplane) | [@maximiliantech](https://github.com/maximiliantech) | Manages the lifecycle of Crossplane and Crossplane providers |
-| [service-provider-external-secrets](https://github.com/openmcp-project/service-provider-external-secrets) | [@christophrj](https://github.com/christophrj) | Manages the lifecycle of External Secrets Operator instances |
-| [service-provider-flux](https://github.com/openmcp-project/service-provider-flux) | [@maximiliantech](https://github.com/maximiliantech) | Manages the lifecycle of Flux instances |
-| [service-provider-kro](https://github.com/openmcp-project/service-provider-kro) | [@frewilhelm](https://github.com/frewilhelm) | Manages the lifecycle of kro instances as-a-Service |
-| [service-provider-landscaper](https://github.com/openmcp-project/service-provider-landscaper) | [@robertgraeff](https://github.com/robertgraeff) | Manages the lifecycle of Landscaper instances |
-| [service-provider-template](https://github.com/openmcp-project/service-provider-template) | [@christophrj](https://github.com/christophrj) | Template for building openMCP service providers |
-| [service-provider-velero](https://github.com/openmcp-project/service-provider-velero) | [@christophrj](https://github.com/christophrj) | Manages the lifecycle of Velero instances as-a-Service |
+| Subproject                                                                                                | Owner                                                                                      | Description                                                                                             |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener)                 | [@Diaphteiros](https://github.com/Diaphteiros)                                             | Use [Gardener](https://gardener.cloud/) to provision clusters in openMCP                                |
+| [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind)                         | [@maximiliantech](https://github.com/maximiliantech)                                       | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in openMCP                                  |
+| [opencontrolplane-runtime](https://github.com/openmcp-project/opencontrolplane-runtime)                   | [@christophrj](https://github.com/christophrj)                                             | A set of libraries for writing OpenControlPlane ServiceProviders, PlatformServices and ClusterProviders |
+| [openmcp-testing](https://github.com/openmcp-project/openmcp-testing)                                     | [@christophrj](https://github.com/christophrj)                                             | Set up e2e test suites for OpenControlPlane components                                                  |
+| [service-provider-crossplane](https://github.com/openmcp-project/service-provider-crossplane)             | [@maximiliantech](https://github.com/maximiliantech)                                       | Manages the lifecycle of Crossplane and Crossplane providers                                            |
+| [service-provider-external-secrets](https://github.com/openmcp-project/service-provider-external-secrets) | [@christophrj](https://github.com/christophrj)                                             | Manages the lifecycle of External Secrets Operator instances                                            |
+| [service-provider-flux](https://github.com/openmcp-project/service-provider-flux)                         | [@maximiliantech](https://github.com/maximiliantech)                                       | Manages the lifecycle of Flux instances                                                                 |
+| [service-provider-kro](https://github.com/openmcp-project/service-provider-kro)                           | [@frewilhelm](https://github.com/frewilhelm)                                               | Manages the lifecycle of kro instances as-a-Service                                                     |
+| [service-provider-kyverno](https://github.com/openmcp-project/service-provider-kyverno)                   | [@SatabdiG](https://github.com/SatabdiG)  [@sdischer-sap](https://github.com/sdischer-sap) | Manages the lifecycle of Kyverno instances as-a-Service                                                 |
+| [service-provider-landscaper](https://github.com/openmcp-project/service-provider-landscaper)             | [@robertgraeff](https://github.com/robertgraeff)                                           | Manages the lifecycle of Landscaper instances                                                           |
+| [service-provider-template](https://github.com/openmcp-project/service-provider-template)                 | [@christophrj](https://github.com/christophrj)                                             | Template for building openMCP service providers                                                         |
+| [service-provider-velero](https://github.com/openmcp-project/service-provider-velero)                     | [@christophrj](https://github.com/christophrj)                                             | Manages the lifecycle of Velero instances as-a-Service                                                  |
 
 ## Communication
 
