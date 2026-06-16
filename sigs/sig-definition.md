@@ -3,7 +3,7 @@
 ## Overview and Purpose
 
 ### Definition
-Special Interest Groups (SIGs) are the core organizational units within OpenMCP. Comprised of members from diverse companies and organizations, each SIG concentrates on a specific project area, such as infrastructure, security, or user experience. Their collective goal is to drive progress, maintain quality standards, and foster innovation within their respective domains.
+Special Interest Groups (SIGs) are the core organizational units within OpenControlPlane. Comprised of members from diverse companies and organizations, each SIG concentrates on a specific project area, such as infrastructure, security, or user experience. Their collective goal is to drive progress, maintain quality standards, and foster innovation within their respective domains.
 
 SIGs are designed to:
 - Foster **distributed decision-making** and **code ownership**
@@ -12,7 +12,7 @@ SIGs are designed to:
 - Ensure **accountability** and **transparency** across the project
 - Enable **scalable governance** as the project grows
 
-**Fundamental Principle**: Every component of the OpenMCP project is intended to be under the stewardship of a SIG.
+**Fundamental Principle**: Every component of the OpenControlPlane project is intended to be under the stewardship of a SIG.
 
 ## SIG Lifecycle and Management
 
@@ -38,7 +38,7 @@ A SIG may be dissolved when its scope is no longer relevant, it has been inactiv
 SIGs **MUST** have a charter defining their scope, responsibilities, decision-making processes, and conflict resolution mechanisms.
 
 **Charter Requirements:**
-- **MUST** be publicly accessible in the OpenMCP repository
+- **MUST** be publicly accessible in the OpenControlPlane repository
 - **MUST** be reviewed and updated at least annually
 - **MUST** be approved by TSC
 - **MUST** be communicated to all SIG members and the broader community

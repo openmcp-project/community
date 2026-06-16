@@ -1,8 +1,8 @@
-# openMCP Steering Committee
+# OpenControlPlane Steering Committee
 
-This folder contains information about the openMCP Steering Committee.
+This folder contains information about the OpenControlPlane Steering Committee.
 
-OpenMCP is an open platform to automate software lifecycle management with Kubernetes means, contributed to the [Linux Foundation](https://www.linuxfoundation.org/) under the [NeoNephos Foundation](https://neonephos.org/) community.
+[OpenControlPlane](https://open-control-plane.io/) is an open platform to automate software lifecycle management with Kubernetes means, contributed to the [Linux Foundation](https://www.linuxfoundation.org/) under the [NeoNephos Foundation](https://neonephos.org/) community.
 
 ## Meetings
 

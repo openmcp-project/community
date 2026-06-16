@@ -2,20 +2,20 @@
 
 ## Scope
 
- SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of Open Managed Control Planes ([openMCP](https://github.com/openmcp-project)).
+ SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of the [OpenControlPlane project](https://open-control-plane.io/).
 
 Topics like provider design, discovery and access management are cross-cutting with [SIG Core]() and will be discussed and assigned to either SIG on a per-topic basis.
 
 ### In Scope
 
-- Increase openMCP service options that end users can choose from.
+- Increase OpenControlPlane service options that end users can choose from.
 - Developer joy enabled through templates, frameworks and other contributor-focused tooling.
-- Explore technical opportunities to simplify and standardize extensibility in openMCP.
+- Explore technical opportunities to simplify and standardize extensibility in OpenControlPlane.
 
 ### Out of Scope
 
 - Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ManagedControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core]() if identified based on the usage in SIG extensibility.
-- Platform services that are considered fundamental and required for the majority of openMCP platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core]().
+- Platform services that are considered fundamental and required for the majority of OpenControlPlane platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core]().
 
 ## Roles and Responsibilities
 
@@ -38,8 +38,8 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 | Subproject                                                                                                | Owner                                                                                     | Description                                                                                             |
 | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener)                 | [@Diaphteiros](https://github.com/Diaphteiros)                                            | Use [Gardener](https://gardener.cloud/) to provision clusters in openMCP                                |
-| [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind)                         | [@maximiliantech](https://github.com/maximiliantech)                                      | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in openMCP                                  |
+| [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener)                 | [@Diaphteiros](https://github.com/Diaphteiros)                                            | Use [Gardener](https://gardener.cloud/) to provision clusters in OpenControlPlane                                |
+| [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind)                         | [@maximiliantech](https://github.com/maximiliantech)                                      | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in OpenControlPlane                                  |
 | [opencontrolplane-runtime](https://github.com/openmcp-project/opencontrolplane-runtime)                   | [@christophrj](https://github.com/christophrj)                                            | A set of libraries for writing OpenControlPlane ServiceProviders, PlatformServices and ClusterProviders |
 | [openmcp-testing](https://github.com/openmcp-project/openmcp-testing)                                     | [@christophrj](https://github.com/christophrj)                                            | Set up e2e test suites for OpenControlPlane components                                                  |
 | [service-provider-crossplane](https://github.com/openmcp-project/service-provider-crossplane)             | [@maximiliantech](https://github.com/maximiliantech)                                      | Manages the lifecycle of Crossplane and Crossplane providers                                            |
@@ -48,14 +48,14 @@ Topics like provider design, discovery and access management are cross-cutting w
 | [service-provider-kro](https://github.com/openmcp-project/service-provider-kro)                           | [@frewilhelm](https://github.com/frewilhelm)                                              | Manages the lifecycle of kro instances as-a-Service                                                     |
 | [service-provider-kyverno](https://github.com/openmcp-project/service-provider-kyverno)                   | [@SatabdiG](https://github.com/SatabdiG) [@sdischer-sap](https://github.com/sdischer-sap) | Manages the lifecycle of Kyverno instances as-a-Service                                                 |
 | [service-provider-landscaper](https://github.com/openmcp-project/service-provider-landscaper)             | [@robertgraeff](https://github.com/robertgraeff)                                          | Manages the lifecycle of Landscaper instances                                                           |
-| [service-provider-template](https://github.com/openmcp-project/service-provider-template)                 | [@christophrj](https://github.com/christophrj)                                            | Template for building openMCP service providers                                                         |
+| [service-provider-template](https://github.com/openmcp-project/service-provider-template)                 | [@christophrj](https://github.com/christophrj)                                            | Template for building OpenControlPlane service providers                                                         |
 | [service-provider-velero](https://github.com/openmcp-project/service-provider-velero)                     | [@christophrj](https://github.com/christophrj)                                            | Manages the lifecycle of Velero instances as-a-Service                                                  |
 
 ## Communication
 
 - **Community Call:** Bi-weekly on Wednesday at 3PM CET
-- **Mailing List:** [openMCP-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/openMCP-extensibility), sign up for updates and receive your invitation to our community call.
-- **Documentation:** [openMCP-project docs](https://openmcp-project.github.io/docs/)
+- **Mailing List:** [opencontrolplane-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-extensibility), sign up for updates and receive your invitation to our community call.
+- **Documentation:** [OpenControlPlane documentation](https://open-control-plane.io/)
 
 ## Decision-Making
 
@@ -77,6 +77,6 @@ Long-term activities are captured in the [feature requests view](https://github.
 
 ## Charter Review
 
-- **Last Updated:** 2026-02-23
+- **Last Updated:** 2026-06-16
 - **Next Review:** tbd
 - **Review Frequency:** tbd
