@@ -40,6 +40,7 @@ Topics like provider design, discovery and access management are cross-cutting w
 | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [cluster-provider-gardener](https://github.com/openmcp-project/cluster-provider-gardener)                 | [@Diaphteiros](https://github.com/Diaphteiros)                                            | Use [Gardener](https://gardener.cloud/) to provision clusters in OpenControlPlane                                |
 | [cluster-provider-kind](https://github.com/openmcp-project/cluster-provider-kind)                         | [@maximiliantech](https://github.com/maximiliantech)                                      | Use [kind](https://kind.sigs.k8s.io/) to provision clusters in OpenControlPlane                                  |
+| [opencontrolplane-gen](https://github.com/openmcp-project/opencontrolplane-gen)                           | [@christophrj](https://github.com/christophrj)                                            | A code transformation tool to use with go generate |
 | [opencontrolplane-runtime](https://github.com/openmcp-project/opencontrolplane-runtime)                   | [@christophrj](https://github.com/christophrj)                                            | A set of libraries for writing OpenControlPlane ServiceProviders, PlatformServices and ClusterProviders |
 | [openmcp-testing](https://github.com/openmcp-project/openmcp-testing)                                     | [@christophrj](https://github.com/christophrj)                                            | Set up e2e test suites for OpenControlPlane components                                                  |
 | [service-provider-crossplane](https://github.com/openmcp-project/service-provider-crossplane)             | [@maximiliantech](https://github.com/maximiliantech)                                      | Manages the lifecycle of Crossplane and Crossplane providers                                            |
@@ -69,14 +70,10 @@ Conflicts are first discussed within the SIG. If unresolved after 2 weeks, they 
 
 ## Roadmap
 
-SIG Extensibility distinguishes between short-term and long-term activities. The [roadmap](https://github.com/orgs/openmcp-project/projects/15/views/5) provides a three-month outlook on planned work.
-
-Short-term activities have a commitment to be actively worked on within the next three months and are put in the backlog and tracked in the [backlog view](https://github.com/orgs/openmcp-project/projects/15/views/3).
-
-Long-term activities are captured in the [feature requests view](https://github.com/orgs/openmcp-project/projects/15/views/15). Feature requests serve as the primary mechanism for discussing and refining future work. If a feature requires additional documentation, create a PR in the community repo with a ADR, RFC or enhancement proposal markdown file under [sig-extensibility](../sig-extensibility/) to discuss the request. Issues related to a feature request are put into the [SIG Extensibility backlog](https://github.com/orgs/openmcp-project/projects/15/views/3) once a feature has been refined and the commitment to implement the feature has been made.
+The [roadmap](https://github.com/orgs/openmcp-project/projects/15/views/5) provides a three-month outlook on planned work.
 
 ## Charter Review
 
-- **Last Updated:** 2026-06-16
+- **Last Updated:** 2026-06-18
 - **Next Review:** tbd
 - **Review Frequency:** tbd
