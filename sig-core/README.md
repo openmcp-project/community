@@ -21,12 +21,12 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 
 ### SIG Owner
 
-- **Name(s):** René Schünemann (<rene.schuenemann@sap.com>)
+- **Name(s):** René Schünemann (<rene.schuenemann@sap.com>), Radek Schekalla (<radek.schekalla@sap.com>)
 - **Responsibilities:** Organize meetings, maintain charter, communicate with other SIGs, manage roadmap, mentor team members, report to TSC
 
 ### SIG Approvers
 
-- **Name(s):** Maximilian Techritz (<maximilian.techritz@sap.com>)
+- **Name(s):** Johannes Aubart (<johannes.aubart@sap.com>), Maximilian Techritz (<maximilian.techritz@sap.com>)
 - **Responsibilities:** Review and approve technical changes, provide mentorship, participate in design discussions, maintain code quality
 
 ### SIG Contributors
