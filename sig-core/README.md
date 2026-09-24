@@ -45,6 +45,7 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 | [platform-service-quota](https://github.com/openmcp-project/platform-service-quota) | [@Diaphteiros](https://github.com/Diaphteiros) | Manages resource quota in namespaces |
 | [platform-service-resource-replicator](https://github.com/openmcp-project/platform-service-resource-replicator) | [@Diaphteiros](https://github.com/Diaphteiros) | Copies arbitrary resources from a source cluster into different namespaces and/or clusters |
 | [observability-stack](https://github.com/openmcp-project/observability-stack) | tbd | Monitoring, metrics collection, and distributed tracing for OpenControlPlane deployments |
+| [platform-service-test-runner](https://github.com/openmcp-project/platform-service-test-runner) | tbd | Defines and runs in-cluster tests in an OpenControlPlane environment |
 
 ## Communication
 
