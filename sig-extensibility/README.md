@@ -4,7 +4,7 @@
 
  SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of the [OpenControlPlane project](https://open-control-plane.io/).
 
-Topics like provider design, discovery and access management are cross-cutting with [SIG Core]() and will be discussed and assigned to either SIG on a per-topic basis.
+Topics like provider design, discovery and access management are cross-cutting with [SIG Core](../sig-core/README.md) and will be discussed and assigned to either SIG on a per-topic basis.
 
 ### In Scope
 
@@ -14,8 +14,8 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ### Out of Scope
 
-- Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core]() if identified based on the usage in SIG extensibility.
-- Platform services that are considered fundamental and required for the majority of OpenControlPlane platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core]().
+- Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core](../sig-core/README.md) if identified based on the usage in SIG extensibility.
+- Platform services that are considered fundamental and required for the majority of OpenControlPlane platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core](../sig-core/README.md).
 
 ## Roles and Responsibilities
 
