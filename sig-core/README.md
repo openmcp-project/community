@@ -47,7 +47,7 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 
 ## Communication
 
-- **Meetings:** Bi-weekly on Wednesday at 3PM CET
+- **Meetings:** Bi-weekly on Wednesday at 4PM CET
 - **Mailing List:** [opencontrolplane-core@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-core), sign up for updates and receive your invitation to our community call.
 - **Documentation:** [OpenControlPlane documentation](https://open-control-plane.io/)
 
