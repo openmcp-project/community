@@ -44,9 +44,9 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 | [platform-service-dns](https://github.com/openmcp-project/platform-service-dns) | [@Diaphteiros](https://github.com/Diaphteiros) | Discovers endpoints of remote services |
 | [platform-service-quota](https://github.com/openmcp-project/platform-service-quota) | [@Diaphteiros](https://github.com/Diaphteiros) | Manages resource quota in namespaces |
 | [platform-service-resource-replicator](https://github.com/openmcp-project/platform-service-resource-replicator) | [@Diaphteiros](https://github.com/Diaphteiros) | Copies arbitrary resources from a source cluster into different namespaces and/or clusters |
-| [observability-stack](https://github.com/openmcp-project/observability-stack) | tbd | Monitoring, metrics collection, and distributed tracing for OpenControlPlane deployments |
-| [platform-service-test-runner](https://github.com/openmcp-project/platform-service-test-runner) | tbd | Defines and runs in-cluster tests in an OpenControlPlane environment |
-| [multicluster-provider](https://github.com/openmcp-project/multicluster-provider) | tbd | An OpenControlPlane provider for multicluster-runtime |
+| [observability-stack](https://github.com/openmcp-project/observability-stack) | [@reshnm](https://github.com/reshnm) | Monitoring, metrics collection, and distributed tracing for OpenControlPlane deployments |
+| [platform-service-test-runner](https://github.com/openmcp-project/platform-service-test-runner) | [rdksap](https://github.com/rdksap) | Defines and runs in-cluster tests in an OpenControlPlane environment |
+| [multicluster-provider](https://github.com/openmcp-project/multicluster-provider) | [@Diaphteiros](https://github.com/Diaphteiros) | An OpenControlPlane provider for multicluster-runtime |
 
 ## Communication
 
