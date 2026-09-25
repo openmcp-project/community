@@ -57,8 +57,9 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ## Communication
 
-- **Community Call:** Bi-weekly on Wednesday at 3PM CET
-- **Mailing List:** [opencontrolplane-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-extensibility), sign up for updates and receive your invitation to our community call.
+- **Community Call:** Bi-weekly on Wednesday at 3PM CET (shared meeting slot with [SIG Core](../sig-core/README.md))
+- **Meeting-Link:** [Zoom-Link](https://zoom-lfx.platform.linuxfoundation.org/meeting/93337242805?password=ff84ba5f-5719-4eba-93bd-3c38dd72b42a) to join the meeting or subscribe to our OpenControlPlane calendar `https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx`
+- **Mailing List:** [opencontrolplane-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-extensibility), sign up for general updates/discussions and receive your invitation to our community call via e-mail.
 - **Documentation:** [OpenControlPlane documentation](https://open-control-plane.io/)
 
 ## Decision-Making
