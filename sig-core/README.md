@@ -50,8 +50,9 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 
 ## Communication
 
-- **Meetings:** Bi-weekly on Wednesday at 4PM CET
-- **Mailing List:** [opencontrolplane-core@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-core), sign up for updates and receive your invitation to our community call.
+- **Meetings:** Bi-weekly on Wednesday at 3PM CET (shared meeting slot with [SIG Extensibility](../sig-extensibility/README.md))
+- **Meeting-Link:** [Zoom-Link](https://zoom-lfx.platform.linuxfoundation.org/meeting/93337242805?password=ff84ba5f-5719-4eba-93bd-3c38dd72b42a) to join the meeting or subscribe to our OpenControlPlane calendar `https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx`
+- **Mailing List:** [opencontrolplane-core@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-core), sign up for general updates/discussions and receive your invitation to our community call via e-mail.
 - **Documentation:** [OpenControlPlane documentation](https://open-control-plane.io/)
 
 ## Decision-Making
