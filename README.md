@@ -19,6 +19,7 @@ OpenControlPlane is a project of the [NeoNephos Foundation](https://neonephos.or
 
 - [SIG Definition & Lifecycle](sigs/sig-definition.md)
 - [SIG Template](sigs/sig-template.md)
+- [SIG Core](sig-core/)
 - [SIG Extensibility](sig-extensibility/)
 
 ## Contributing
