@@ -10,6 +10,7 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 - The main OpenControlPlane operator and its controllers
 - Platform services required by most OpenControlPlane platform instances
 - Shared controller utilities and libraries used across the project
+- Shared build infrastructure, release processes and artifact publishing mechanisms
 - Cross-cutting topics with [SIG Extensibility](../sig-extensibility/README.md) such as provider design, discovery, and access management (assigned per-topic)
 
 ### Out of Scope
@@ -21,7 +22,7 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 
 ### SIG Owner
 
-- **Name(s):** René Schünemann (<rene.schuenemann@sap.com>), Radek Schekalla (<radek.schekalla@sap.com>), Maximilian Techritz (<maximilian.techritz@sap.com>)
+- **Name(s):** Radek Schekalla (<radek.schekalla@sap.com>), Maximilian Techritz (<maximilian.techritz@sap.com>)
 - **Responsibilities:** Organize meetings, maintain charter, communicate with other SIGs, manage roadmap, mentor team members, report to TSC
 
 ### SIG Approvers
@@ -47,6 +48,7 @@ SIG Core owns the foundational APIs and controllers of OpenControlPlane — incl
 | [observability-stack](https://github.com/openmcp-project/observability-stack) | [@reshnm](https://github.com/reshnm) | Monitoring, metrics collection, and distributed tracing for OpenControlPlane deployments |
 | [platform-service-test-runner](https://github.com/openmcp-project/platform-service-test-runner) | [rdksap](https://github.com/rdksap) | Defines and runs in-cluster tests in an OpenControlPlane environment |
 | [multicluster-provider](https://github.com/openmcp-project/multicluster-provider) | [@Diaphteiros](https://github.com/Diaphteiros) | An OpenControlPlane provider for multicluster-runtime |
+| [build](https://github.com/openmcp-project/build) | [@Diaphteiros](https://github.com/Diaphteiros) | Share build and release infrastructure |
 
 ## Communication
 
