@@ -4,7 +4,7 @@
 
  SIG Extensibility focuses on making it easy to build, share, and adopt extensions like [service providers](https://openmcp-project.github.io/docs/about/concepts/service-provider), [cluster providers](https://openmcp-project.github.io/docs/about/concepts/cluster-provider) and [platform services](https://openmcp-project.github.io/docs/about/concepts/platform-service) in the context of the [OpenControlPlane project](https://open-control-plane.io/).
 
-Topics like provider design, discovery and access management are cross-cutting with [SIG Core]() and will be discussed and assigned to either SIG on a per-topic basis.
+Topics like provider design, discovery and access management are cross-cutting with [SIG Core](../sig-core/README.md) and will be discussed and assigned to either SIG on a per-topic basis.
 
 ### In Scope
 
@@ -14,8 +14,8 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ### Out of Scope
 
-- Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ManagedControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core]() if identified based on the usage in SIG extensibility.
-- Platform services that are considered fundamental and required for the majority of OpenControlPlane platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core]().
+- Ownership or modification of core APIs, including `ServiceProvider`, `ClusterProvider`, `PlatformService` and `ControlPlane`. SIG Extensibility may propose improvements to these APIs to [SIG Core](../sig-core/README.md) if identified based on the usage in SIG extensibility.
+- Platform services that are considered fundamental and required for the majority of OpenControlPlane platform instances (e.g. [platform-service-gateway](https://github.com/openmcp-project/platform-service-gateway)) are owned by [SIG Core](../sig-core/README.md).
 
 ## Roles and Responsibilities
 
@@ -57,8 +57,9 @@ Topics like provider design, discovery and access management are cross-cutting w
 
 ## Communication
 
-- **Community Call:** Bi-weekly on Wednesday at 3PM CET
-- **Mailing List:** [opencontrolplane-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-extensibility), sign up for updates and receive your invitation to our community call.
+- **Community Call:** Bi-weekly on Wednesday at 3PM CET (shared meeting slot with [SIG Core](../sig-core/README.md))
+- **Meeting-Link:** [Zoom-Link](https://zoom-lfx.platform.linuxfoundation.org/meeting/93337242805?password=ff84ba5f-5719-4eba-93bd-3c38dd72b42a) to join the meeting or subscribe to our OpenControlPlane calendar `https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx`
+- **Mailing List:** [opencontrolplane-extensibility@lists.neonephos.org](https://lists.neonephos.org/g/opencontrolplane-extensibility), sign up for general updates/discussions and receive your invitation to our community call via e-mail.
 - **Documentation:** [OpenControlPlane documentation](https://open-control-plane.io/)
 
 ## Decision-Making
