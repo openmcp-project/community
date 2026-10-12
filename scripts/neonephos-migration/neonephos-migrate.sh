@@ -161,6 +161,24 @@ replace_contacts() {
     done
 }
 
+# Clean up CONTRIBUTING.md SAP references
+clean_contributing() {
+    local repo_dir="$1"
+    local contrib="${repo_dir}/CONTRIBUTING.md"
+
+    [[ -f "$contrib" ]] || return 0
+
+    if grep -q "SAP Open Source Code of Conduct" "$contrib" 2>/dev/null; then
+        sed -i '' 's|SAP Open Source Code of Conduct|Code of Conduct|g' "$contrib"
+        report "  [OK] Renamed 'SAP Open Source Code of Conduct' → 'Code of Conduct'"
+    fi
+
+    if grep -q "SAP Open Source Program Office" "$contrib" 2>/dev/null; then
+        sed -i '' '/(SAP Open Source Program Office)/d' "$contrib"
+        report "  [OK] Removed SAP OSPO reference from CONTRIBUTING.md"
+    fi
+}
+
 # Remove SAP legal/policy links (lines containing them)
 remove_sap_legal_links() {
     local repo_dir="$1"
@@ -393,6 +411,7 @@ main() {
         replace_copyright_headers "$repo_dir"
         replace_reuse_toml "$repo_dir" "$repo"
         replace_contacts "$repo_dir"
+        clean_contributing "$repo_dir"
         remove_sap_legal_links "$repo_dir"
         remove_inherited_files "$repo_dir"
         ensure_readme_footer "$repo_dir"
